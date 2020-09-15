@@ -17,7 +17,7 @@ class Deciduous extends Tree{
     return `${super.definition()} Deciduous trees shed their leaves annually.`;
   }
 }
-class Deciduous extends Tree{
+class Evergreen  extends Tree{
   constructor(species,name){
     super(species);
     this.name=name;
